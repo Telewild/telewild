@@ -236,9 +236,10 @@ function create_config( )
     "info",
     "hello",
     "feedback",
+    "pvhelp",
     "all"
     },
-  
+    
     sudo_users = {135693512,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
