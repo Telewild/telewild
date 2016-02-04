@@ -219,7 +219,8 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "chat"
     },
     sudo_users = {135693512,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
