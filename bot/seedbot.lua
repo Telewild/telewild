@@ -255,9 +255,7 @@ Admin
 @DARK_BOYS_ADMIN
 
 
-help_text = [[ function run(msg, matches)
-return [[ 
-📝 ليست دستورات مدیریتی :
+help_text = [[ 📝 ليست دستورات مدیریتی :
 🚫 حذف کردن کاربر
 !kick [یوزنیم/یوزر آی دی]
 🚫 بن کردن کاربر ( حذف برای همیشه )
@@ -358,19 +356,8 @@ return [[
 جزييات مديريتی گروه را تغيير دهند.
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 ]]
-end
-
-return {
-description = "Shows bot Help", 
-usage = "Help : Shows bot Help",
-patterns = {
-"^[!/][Hh]elp$"
-}, 
-run = run 
-}
 
 end
-]] 
 
   }
   serialize_to_file(config, './data/config.lua')
