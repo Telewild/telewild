@@ -237,7 +237,10 @@ function create_config( )
     "hello",
     "feedback",
     "pvhelp",
-    "all"
+    "translate",
+    "on-off",
+    "sticker",
+    
     },
     
     sudo_users = {135693512,0,tonumber(our_id)},--Sudo users
